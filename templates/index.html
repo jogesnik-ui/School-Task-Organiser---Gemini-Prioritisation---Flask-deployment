@@ -72,6 +72,21 @@
             </form>
         </div>
 
+        <div class="gemini-btn">
+            <h2>Generate Priority</h2>
+            <form action="/analyse" method="GET">
+                <button type="submit">Get Study Recommendation</button>
+            </form>
+        </div>
+
+        <div class="task-complete">
+            <h2>Study Recommendation</h2>
+            {% if priority %}
+            <p>Priority: {{priority}}</p>
+            <p>Strategy: {{strategy}}</p>
+            {% endif %}
+        </div>
+
 
     </main>
 </body>

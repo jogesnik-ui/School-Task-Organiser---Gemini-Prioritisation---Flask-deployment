@@ -201,3 +201,25 @@ tbody td:last-child {
 .form-container button:hover {
     background-color: #1d4ed8;
 }
+
+.task-complete {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    padding: 28px 32px;
+    margin-top: 28px;
+}
+
+.task-complete h2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+    color: #1e40af;
+}
+
+.task-complete p {
+    font-size: 15px;
+    color: #374151;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
